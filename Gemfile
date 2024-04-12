@@ -4,6 +4,9 @@ ruby "3.2.2"
 
 gem 'rest-client', '~> 2.1'
 gem 'pg', '~> 1.5', '>= 1.5.6'
+gem 'bundler-audit', '~> 0.9.1'
+gem 'brakeman', '~> 6.1', '>= 6.1.2'
+gem 'rubocop', '~> 1.63', '>= 1.63.1'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
